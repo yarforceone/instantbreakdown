@@ -24,17 +24,13 @@ async def on_message(message):
     if message.content.startswith('$help'):
         await message.channel.send('List of couchmands: \n $help --List of commands \n +couch --Random couchie response \n !couch [phrase] --I tried to [phrase] once. I spent random time on the couch.')
     elif message.content.startswith('+couch'):
-        flip = random.choice(["Some sweet couch time happening tonight!", "That will land you on the couch for sure.", "Yeah, I tried that once too and it earned me a full week of pillowy, fluffy couch time. :)", "STANDBY FOR COUCHFALL!", "Awe, no couch for you this time.", "Hot tits! You earned the couch for the night!", "Good news! Couch time is immanent!", "Ready the loveseat. Couch time is coming!", "Some call it a couch, my grandmother calls it a davenport, but regardless, you'll surely be sleeping on one tonight.", "Fvck yo couch. Sleep on mine instead!", "Much couch. So fa.", "Disregard females. Acquire chesterfields.", "Ohhh, you gonna be chaising longue tonight!", "Annnnd boom goes the dynamite. Couch tonight!", "Sheeeeeeit, you gettin the couch!", "All the couch are belong to you.", "https://media.giphy.com/media/12oCddjphC1do4/giphy.gif"])
+        flip = random.choice([
+            'FUCK WITH THIS NEW BEAT!  \n    --------  \n    Pierce the Veil',
+            'DISRESPECT YOUR SURROUNDINGS!  \n    --------  \n    A Day to Remember'
+            'As low as I can get.  Burn the bridge.  Rip the stitch out.  PICK IT UP!  \n    --------  \n    Wage War'
+           ])
         await message.channel.send(flip)
-    elif message.content.startswith('!couch'):
-        msg = message.content
-        phrase = msg.replace("!couch ","",1)
-        tm = random.choice(["a week", "1.5 weeks", "2 weeks", "3 weeks", "so many weeks", "two and a half weeks", "three weeks", "four weeks", "such time", "eleven weeks", "an eternity", "a fortnite", "a night"])
-        response = "I tried to " + phrase + " once. I spent " + tm + " on the couch."
-        await message.channel.send(response)
-    elif message.content.startswith('/roll'):
-        roll = randint(1, 20)
-        await message.channel.send("You rolled a " + str(roll) + "!")
+ 
 
     if 'couch' in message.content:
         if message.author == client.user:
