@@ -1,6 +1,6 @@
-# Couch Bot by nitrousflame
-# ID: 452124773699551254
-# Invite link: https://discordapp.com/api/oauth2/authorize?client_id=452124773699551254&scope=bot&permissions=1a
+# Couch Bot by yarforceone
+# ID: 639461334169157653
+# Invite link: https://discordapp.com/api/oauth2/authorize?client_id=639461334169157653scope=bot&permissions=1a
 
 import discord
 import asyncio
