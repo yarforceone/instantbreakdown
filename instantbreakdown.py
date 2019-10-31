@@ -22,17 +22,21 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith('$help'):
-        await message.channel.send('List of couchmands: \n $help --List of commands \n +couch --Random couchie response \n !couch [phrase] --I tried to [phrase] once. I spent random time on the couch.')
-    elif message.content.startswith('+couch'):
+        await message.channel.send('List of couchmands: \n $help --List of commands \n +breakdown--Random breakdown to get your head spinning')
+    elif message.content.startswith('+breakdown'):
         flip = random.choice([
-            'FUCK WITH THIS NEW BEAT!  \n    --------  \n    Pierce the Veil',
-            'DISRESPECT YOUR SURROUNDINGS!  \n    --------  \n    A Day to Remember'
-            'As low as I can get.  Burn the bridge.  Rip the stitch out.  PICK IT UP!  \n    --------  \n    Wage War'
+            	'FUCK WITH THIS NEW BEAT!  \n    --------  \n    Pierce the Veil',
+            	'DISRESPECT YOUR SURROUNDINGS!  \n    --------  \n    A Day to Remember',
+            	'As low as I can get.  Burn the bridge.  Rip the stitch out.  PICK IT UP!  \n    --------  \n    Wage War',
+		'LET THIS DESTROY ME!  \n    --------  \n    Fit for a King',
+	 	'I THINK THE SILENCE SPEAKS VOLUMMMMMES    \n   --------  \n    While She Sleeps',
+	 	'Say its a waste of time.  Say Ill never get a real shot.  ILL BE BANGING MY HEAD TIL MY BRAIN ROTS!    \n   --------  \n    Beartooth'
            ])
         await message.channel.send(flip)
  
 
-    if 'couch' in message.content:
+
+    if 'breakdown' in message.content:
         if message.author == client.user:
             #return if the bot is the author
             return
