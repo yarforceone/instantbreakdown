@@ -30,7 +30,13 @@ async def on_message(message):
             	'As low as I can get.  Burn the bridge.  Rip the stitch out.  PICK IT UP!  \n    --------  \n    Wage War',
 		'LET THIS DESTROY ME!  \n    --------  \n    Fit for a King',
 	 	'I THINK THE SILENCE SPEAKS VOLUMMMMMES    \n   --------  \n    While She Sleeps',
-	 	'Say its a waste of time.  Say Ill never get a real shot.  ILL BE BANGING MY HEAD TIL MY BRAIN ROTS!    \n   --------  \n    Beartooth'
+	 	'Say its a waste of time.  Say Ill never get a real shot.  ILL BE BANGING MY HEAD TIL MY BRAIN ROTS!    \n   --------  \n    Beartooth',
+		'THIS.  IS.  SEMPITERNAL!!!!    \n   --------  \n    Bring Me the Horizon',
+		'This is getting out of hand.  This is getting out of hand.  THIS IS GETTING OUT OF HAND.  ITS GETTING OUT OF HAND.  FUCK!!!    \n   --------  \n    Fever 333',
+		'I always knew you were a coward, I knew you were a fake, a fraud.  I knew youd RUN LIKE A BIIITTCCCH.    \n   --------  \n    Devour the Day',
+		'With the setting sun put the gun in my hand....DONT FAIL ME NOW    \n   --------  \n    blessthefall',
+		'Just know if I could go back, this would all be different.  THIS WOULD ALL BE DIFFERENT.    \n   --------  \n    Memphis May Fire',
+		'I THINK IM GONNA DIE HEEEEERRREEEE.    \n   --------  \n    Chelsea Grin'
            ])
         await message.channel.send(flip)
  
